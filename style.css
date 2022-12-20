@@ -1074,7 +1074,7 @@
  .slides-circles {
      display: flex;
      cursor: pointer;
-     overflow: hidden;
+     /* overflow: hidden; */
  }
 
  .slides-circles>div {
@@ -1275,6 +1275,12 @@
 
  @media only screen and (max-width:480px) {
 
+    .box{
+        background-color: transparent;
+    }
+.button1{
+    border: 1px solid grey;
+}
      .man {
          display: none;
      }
@@ -1574,7 +1580,7 @@
      }
 
      .banner2 {
-         margin-top: 50px;
+         padding-top: 50px;
          font-size: 50px;
      }
 
@@ -1599,6 +1605,9 @@
 
 
  @media only screen and (max-width:420px) {
+    .navbar .menu--items {
+        width: 433px;
+    }
      .navbar .menu--items {
          margin-left: -75px;
      }
@@ -1735,12 +1744,14 @@
 
      .button1 {
          border: 1px solid grey;
-         width: 152px;
+         width: 175px;
      }
 
      .button2 {
+        font-size: 10px;
          margin-left: 7px;
-         width: 79px;
+         width: 55px;
+         padding: 5px;
      }
 
      .button1::placeholder {
@@ -1751,4 +1762,19 @@
          width: 100%;
      }
 
+
+     .slides-circles {
+        width: 129px;
+     }
+
+     .div-2{
+        padding-right: 0px;
+     }
+     .navbar .menu--items {
+        width: 321px;
+    }
+
+    .navbar .menu--items {
+        margin-left: -46px;
+    }
  }
