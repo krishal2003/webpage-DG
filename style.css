@@ -1624,7 +1624,7 @@
      }
 
      .button1 {
-         width: 190px;
+         width: 210px;
      }
 
      .button2 {
@@ -1666,6 +1666,37 @@
          width: 100px;
      }
  }
+ @media only screen and (max-width:320px){
+    .whats{
+        width: 275px;
+    }
+.lorem1,.lorem2{
+    width: 275px;
+}
+
+.slides-circles{
+    width: 100px;
+}
+
+.rome1pic,.rome2pic,.rome3pic{
+    width: 280px;
+}
+
+.rome1,.rome2,.rome3{
+    border: none;
+}
+
+.button {
+    display: flex;
+    padding-right: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+}
+
+
 
  @media only screen and (max-width:280px) {
 
