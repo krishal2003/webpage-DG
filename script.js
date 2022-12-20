@@ -15,8 +15,8 @@ const changeSlide = (offset) => {
     newIndex < 0
       ? slides.children.length - 1
       : newIndex === slides.children.length
-      ? 0
-      : newIndex;
+        ? 0
+        : newIndex;
   slides.children[newIndex].dataset.activeSlide = true;
   delete activeSlide.dataset.activeSlide;
 
